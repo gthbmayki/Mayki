@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/connn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.haha {
+  margin-left: 115px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: #3778c2;
+  border-bottom: 7px solid white;
+}
+
+nav .logo {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+
+}
+
+nav .logo:hover {
+  background-color: transparent;
+  cursor: pointer;
+  transform:scale(1.2);
+  transition: all 1s ease;
+}
+
+span {
+  color: #63bce5;
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a {
+  
+  line-height: 80px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+nav ul li a:hover{
+  background: rgba(41, 39, 39, 0.7);
+  border-radius: 6px;
+  color: #3778c2;
+}
+
+input {
+  color: white;
+  background: transparent;
+  margin-left: 350px;
+}
+input:hover {
+  background: rgba(41, 39, 39, 0.7);
+  border-radius: 6px;
+  color: red;
+}
+
+nav ul li a i {
+  height: 20px;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 65px;
+  color: #3778c2;
+  letter-spacing: 3px;
+  word-wrap: break-word;
+}
+
+.coffee {
+  color: #63bce5;
+}
+.buy {
+  margin-left: -120px;
+  margin-top: 400px;
+  font-size: 25px;
+  letter-spacing: 2px;
+  background-color: #3778c2;
+}
+.buy:hover {
+    background: black;
+    border-radius: 6px;
+    color: red;
+}
